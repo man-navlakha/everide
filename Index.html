@@ -6,7 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EverRide</title>
   <link rel="icon" type="image/png" href="logo.png">
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Syne:wght@580&display=swap"
+    rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css2?family=Epilogue:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap"
     rel="stylesheet">
@@ -667,7 +673,7 @@
       }
     }
 
-    .mhpin {}
+
 
     .mhtrack {
       display: flex;
@@ -1645,6 +1651,13 @@
       transform: translateY(-2px);
       border-color: var(--amber)
     }
+
+    .syne-bold {
+      font-family: "Syne", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 680;
+      font-style: Bold;
+    }
   </style>
 </head>
 
@@ -1654,9 +1667,10 @@
   <div id="prog"></div>
 
   <nav id="nav">
-    <a href="#" class="nlogo">
+    <a href="#" class="nlogo font-black">
       <img src="logo.png" alt="EverRide Logo" class="logo-img">
-      Ever<b>Ride</b>
+      <span class="syne-bold">EVER</span>
+      <span class="syne-bold text-[#edab0c]">RIDE</span>
     </a>
     <ul class="nlinks">
       <li><a href="#screens">App Preview</a></li>
@@ -1840,7 +1854,8 @@
           <div class="pframe-inner" style="background:linear-gradient(180deg,#0e1a44 0%,#122C6F 35%,#FBF8F2 35%)">
             <div
               style="display:flex;justify-content:space-between;align-items:center;padding:30px 18px 8px;font-size:11px;font-weight:800;color:white">
-              <span style="font-family:'Epilogue',sans-serif">9:41</span><span style="font-size:10px">▲▲▲ ⚡</span></div>
+              <span style="font-family:'Epilogue',sans-serif">9:41</span><span style="font-size:10px">▲▲▲ ⚡</span>
+            </div>
             <div style="padding:4px 16px 24px;background:transparent">
               <div
                 style="font-family:'Epilogue',sans-serif;font-size:17px;font-weight:800;color:white;margin-bottom:14px">
@@ -1953,7 +1968,8 @@
             style="background:linear-gradient(160deg,var(--navy) 0%,#0e1a44 45%,var(--cream) 45%)">
             <div
               style="display:flex;justify-content:space-between;align-items:center;padding:30px 18px 8px;font-size:11px;font-weight:800;color:white">
-              <span style="font-family:'Epilogue',sans-serif">9:41</span><span>▲▲▲ ⚡</span></div>
+              <span style="font-family:'Epilogue',sans-serif">9:41</span><span>▲▲▲ ⚡</span>
+            </div>
             <div style="padding:4px 16px 26px">
               <div style="display:flex;align-items:center;gap:8px;margin-bottom:14px">
                 <div
